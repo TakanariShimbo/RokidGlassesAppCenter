@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Rokid Glasses App Center Host</string>
+
+    <!-- Common -->
+    <string name="status_panel_title">Status</string>
+
+    <!-- Screen titles -->
+    <string name="screen_title_home">Home</string>
+    <string name="screen_title_list">Glasses Apps</string>
+
+    <!-- Home -->
+    <string name="home_subtitle">Hi Rokid (global) authorization</string>
+    <string name="home_install_status">Hi Rokid: %1$s</string>
+    <string name="home_install_state_installed">installed</string>
+    <string name="home_install_state_not_installed">not installed</string>
+    <string name="home_auth_status">Auth: %1$s</string>
+    <string name="home_auth_state_authorized">ok</string>
+    <string name="home_auth_state_unauthorized">none</string>
+    <string name="home_install_rokid_ai_app">Install Hi Rokid</string>
+    <string name="home_recheck_install">Recheck</string>
+    <string name="home_request_authorization">Authorize</string>
+    <string name="home_open_app_list">Continue</string>
+    <string name="auth_success">Token obtained.</string>
+    <string name="auth_failed">Token request failed.</string>
+    <string name="auth_cancelled">Cancelled.</string>
+
+    <!-- App list -->
+    <string name="list_token_required">Token missing. Go back and re-authorize.</string>
+    <string name="list_connection_status">Link: %1$s</string>
+    <string name="list_client_status">Client: %1$s</string>
+    <string name="list_connection_waiting">waiting</string>
+    <string name="list_connection_ok">connected</string>
+    <string name="list_client_installing">installing</string>
+    <string name="list_client_ready">ready</string>
+    <string name="list_client_failed">failed</string>
+    <string name="list_client_idle">idle</string>
+    <string name="list_loading">Loading apps</string>
+    <string name="list_refresh">Refresh</string>
+    <string name="list_filter_show_system">Show system apps</string>
+    <string name="list_install_apk">Install APK</string>
+    <string name="list_uploading">Uploading APK</string>
+    <string name="list_install_failed">Install failed.</string>
+    <string name="list_install_succeeded">Installed.</string>
+    <string name="list_no_apps">No apps.</string>
+    <string name="list_uninstall_confirm">Confirm on glasses</string>
+
+    <!-- Per row -->
+    <string name="row_version">v%1$s</string>
+    <string name="row_system_badge">system</string>
+    <string name="row_action_start">Start</string>
+    <string name="row_action_stop">Stop</string>
+    <string name="row_action_uninstall">Uninstall</string>
+</resources>
