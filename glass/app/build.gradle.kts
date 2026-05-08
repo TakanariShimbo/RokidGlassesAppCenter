@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.rokidglassesappcenterclient"
+    namespace = "com.example.rokidglassesappcenter.client"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.rokidglassesappcenterclient"
+        applicationId = "com.example.rokidglassesappcenter.client"
         minSdk = 31
         targetSdk = 36
         versionCode = 1

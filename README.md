@@ -27,6 +27,13 @@ Rokid Glasses にインストールされているアプリの **一覧・起動
 | ② Caps (phone) | `com.rokid.cxr:client-l:1.0.1` (Rokid maven) | Wire 互換のため本家 SDK の Caps シリアライザだけ借用 |
 | ② Bridge (glass) | `com.rokid.cxr:cxr-service-bridge:1.0-20260212.103714-88` (Rokid maven) | グラス側の `CXRServiceBridge` 実装 |
 
+## 端末別アプリ識別子
+
+| | phone | glass |
+|---|---|---|
+| 表示名 | `RokidGlassesAppCenter Host` | `RokidGlassesAppCenter Client` |
+| applicationId / namespace | `com.example.rokidglassesappcenter.host` | `com.example.rokidglassesappcenter.client` |
+
 ## 主な機能
 
 - グラスにインストールされているアプリの一覧取得

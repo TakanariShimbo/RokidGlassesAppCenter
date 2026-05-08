@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Rokid Glasses App Center Host</string>
+    <string name="app_name">RokidGlassesAppCenter Host</string>
 
     <!-- Common -->
     <string name="status_panel_title">Status</string>
